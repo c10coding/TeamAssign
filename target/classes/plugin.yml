@@ -1,0 +1,12 @@
+name: TeamAssign
+version: 1.0-SNAPSHOT
+main: teamassign.teamassign.TeamAssign
+api-version: 1.13
+commands:
+  teamassign:
+    aliases:
+      - ta
+    permission: ta.admin
+permissions:
+  ta.admin:
+    description: Allows you to use commands to this plugin
